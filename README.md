@@ -1,9 +1,8 @@
 # Folium
 Using Folium
 
-Cluster Map:
+Cluster Map: 
 <iframe src="https://keanang.github.io/Folium/cluster_map.html" width="700" height="600"></iframe>
-
 
 Heat Map:
 <iframe src="https://keanang.github.io/Folium/Heat_Map.html" width="700" height="600"></iframe>
