@@ -17,6 +17,6 @@ Folium Choropleth:
 <iframe src="https://keanang.github.io/Folium/folium_Choropleth.html" width="700" height="600"></iframe>
 
 Choropleth:
-<iframe src="https://keanang.github.io/Folium/choropleth_poly.png" ></iframe>
+<iframe src="https://keanang.github.io/Folium/choropleth_poly.png" width="100%" height="100%></iframe>
 <iframe src="https://keanang.github.io/Folium/choropleth_poly1.png" width="700" height="600"></iframe>
 <iframe src="https://keanang.github.io/Folium/choropleth_poly_sql.png" width="700" height="600"></iframe>
