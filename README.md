@@ -12,45 +12,20 @@ The main notebook is Folium_lean.ipynb and the GIS notebook using geopandas is c
 Check out the map on [Github Pages](https://keanang.github.io/Folium/).
 
 
+
+
+
 <div style="display:none">
   <a href="https://keanang.github.io/Folium/cluster_map.html">Cluster Map</a>
 </div>
 
 
+@media screen and (max-width: 767px) {
+  .iframe-container {
+    display: none;
+  }
+}
 
-<style>
-    .show-on-io {
-        display: block;
-    }
-    .hide-on-readme {
-        display: none;
-    }
-</style>
-
-<details>
-    <summary>Show/Hide</summary>
-
-    Cluster Map: 
-    <iframe src="https://keanang.github.io/Folium/cluster_map.html" width="700" height="600" class="show-on-io hide-on-readme"></iframe>
-
-    Heat Map:
-    <iframe src="https://keanang.github.io/Folium/Heat_map.html" width="700" height="600" class="show-on-io hide-on-readme"></iframe>
-
-    Heat Map With Time:
-    <iframe src="https://keanang.github.io/Folium/Heat_time_map.html" width="700" height="600" class="show-on-io hide-on-readme"></iframe>
-
-    Heat Map With Time Point style:
-    <iframe src="https://keanang.github.io/Folium/Heat_time_point_map.html" width="700" height="600" class="show-on-io hide-on-readme"></iframe>
-
-    Folium Choropleth:
-    <iframe src="https://keanang.github.io/Folium/folium_Choropleth.html" width="700" height="600" class="show-on-io hide-on-readme"></iframe>
-
-    Choropleth:
-    <iframe src="https://keanang.github.io/Folium/choropleth_poly.png" style="max-width: 800px; max-height: 600px;" class="show-on-io hide-on-readme"></iframe>
-    <iframe src="https://keanang.github.io/Folium/choropleth_poly1.png" width="700" height="600" class="show-on-io hide-on-readme"></iframe>
-    <iframe src="https://keanang.github.io/Folium/choropleth_poly_sql.png" width="700" height="600" class="show-on-io hide-on-readme"></iframe>
-
-</details>
 
 
 
