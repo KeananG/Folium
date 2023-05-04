@@ -20,11 +20,26 @@ Check out the map on [Github Pages](https://keanang.github.io/Folium/).
 </div>
 
 
-@media screen and (max-width: 767px) {
-  .iframe-container {
-    display: none;
+
+<!-- For the README -->
+<div class="hide-on-readme">
+  <a href="https://keanang.github.io/Folium/cluster_map.html">Cluster Map</a>
+</div>
+
+<!-- For the GitHub Pages site -->
+<div class="show-on-readme">
+  <iframe src="https://keanang.github.io/Folium/cluster_map.html" width="700" height="600"></iframe>
+</div>
+
+<!-- CSS to hide/show the appropriate tag -->
+<style>
+  .hide-on-readme { display: block; } /* show link on readme */
+  .show-on-readme { display: none; }  /* hide iframe on readme */
+  @media (min-width: 768px) {
+    .hide-on-readme { display: none; } /* hide link on larger screens */
+    .show-on-readme { display: block; } /* show iframe on larger screens */
   }
-}
+</style>
 
 
 
