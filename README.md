@@ -21,15 +21,14 @@ Check out the map on [Github Pages](https://keanang.github.io/Folium/).
 
 
 
-<!-- For the README -->
-<div class="hide-on-readme">
-  <a href="https://keanang.github.io/Folium/cluster_map.html">Cluster Map</a>
-</div>
-
-<!-- For the GitHub Pages site -->
-<div class="show-on-readme">
+<details>
+  <summary>Cluster Map:</summary>
+  <div style="display:none">
+    <a href="https://keanang.github.io/Folium/cluster_map.html">Cluster Map</a>
+  </div>
   <iframe src="https://keanang.github.io/Folium/cluster_map.html" width="700" height="600"></iframe>
-</div>
+</details>
+
 
 <!-- CSS to hide/show the appropriate tag -->
 <style>
