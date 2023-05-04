@@ -5,7 +5,7 @@ Cluster Map:
 
 
 <details>
-  <summary>Hidden hmtl links>
+  <su>Hidden hmtl links>
 
     <iframe src="https://keanang.github.io/Folium/cluster_map.html" width="700" height="600"></iframe>
 
