@@ -4,7 +4,7 @@ Using Folium
 Cluster Map: 
 
 
-<details>
+<>
   <su>
 
     <iframe src="https://keanang.github.io/Folium/cluster_map.html" width="700" height="600"></iframe>
