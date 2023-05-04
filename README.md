@@ -3,6 +3,26 @@ This repository is to help explain and show applications of Folium.
 The main notebook is Folium_lean.ipynb and the GIS notebook using geopandas is called Keanan_gis_code.ipynb
 
 
+<!-- Hide iframe from Github -->
+<!--[if !IE]> -->
+<iframe src="https://keanang.github.io/Folium/cluster_map.html" width="700" height="600"></iframe>
+<!-- <![endif]-->
+
+<!-- Show link to Github Pages -->
+Check out the map on [Github Pages](https://keanang.github.io/Folium/).
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 <details>
