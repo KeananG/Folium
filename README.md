@@ -3,10 +3,10 @@ Using Folium
 
 Cluster Map: 
 
-![Cluster Map](https://keanang.github.io/Folium/cluster_map.html)
 
 
-![Cluster Map]<iframe src="https://keanang.github.io/Folium/cluster_map.html" width="700" height="600"></iframe>
+
+![Cluster Map](<iframe src="https://keanang.github.io/Folium/cluster_map.html" width="700" height="600"></iframe>)
 
 Heat Map:
 <iframe src="https://keanang.github.io/Folium/Heat_map.html" width="700" height="600"></iframe>
