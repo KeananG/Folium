@@ -1,5 +1,6 @@
 # Folium
-Using Folium
+This repository is to help explain and show applications of Folium.
+The main notebook is Folium_lean.ipynb and the GIS notebook using geopandas is called 
 
 
 
