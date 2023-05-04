@@ -12,8 +12,17 @@ The main notebook is Folium_lean.ipynb and the GIS notebook using geopandas is c
 Check out the map on [Github Pages](https://keanang.github.io/Folium/).
 
 
+<div style="display:none">
+  <a href="https://keanang.github.io/Folium/cluster_map.html">Cluster Map</a>
+</div>
 
 
+
+TRY:
+
+<div style="display:none">
+ <iframe src="https://keanang.github.io/Folium/cluster_map.html" width="700" height="600"></iframe>
+</div>
 
 
 
