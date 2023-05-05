@@ -3,15 +3,16 @@
     <title>Folium Example Maps</title>
     <style>
        @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;700&display=swap');
-      header {
+      h1 {
         background-color: #8B0000; /* Dark red */
         <!-- color: black;-->
         padding: 10px;
         font-family: Montserrat, sans-serif !important;
         font-weight: 100;
+        font-size: 
       }
       
-      body {
+      p {
         background-color: #F5F5F5; /* Light grey */
             <!-- font-family: Montserrat,Avenir,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif !important; -->
        font-family: "Montserrat", sans-serif !important;
@@ -23,7 +24,7 @@
  </head>
   <body>
     <header>
-      <p>Folium Example Maps</p>
+      <h>Folium Example Maps</h1>
     </header>
     <!--<p>Maps:</p> -->
     <ul>
