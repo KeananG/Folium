@@ -21,7 +21,7 @@
  </head>
   <body>
     <header>
-      <h>Folium Example Maps</h1>
+      <h1>Folium Example Maps</h1>
     </header>
     <!--<p>Maps:</p> -->
     <ul>
