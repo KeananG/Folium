@@ -3,6 +3,7 @@
   <head>
     <title>Folium Example Maps</title>
     <style>
+       @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
       header {
         background-color: #8B0000; /* Dark red */
         color: black;
