@@ -1,5 +1,5 @@
 
-<html>
+<!-- <html>
   <head>
     <title>Folium Example Mapss</title>
     <style>
@@ -41,10 +41,10 @@
       </li>
     </ul>
   </body>
-</html>
+</html> -->
 
 
-<!-- <html>
+<html>
   <head>
     <title>Folium Example Maps</title>
     <style>
@@ -54,17 +54,19 @@
         color: black;
         padding: 10px;
         font-family: Montserrat, sans-serif !important;
+        font-weight: 200;
       }
       
       body {
         background-color: #F5F5F5; /* Light grey */
-             font-family: Montserrat,Avenir,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif !important;
-       <!-- font-family: "Montserrat", sans-serif !important; -->
+            <!-- font-family: Montserrat,Avenir,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif !important; -->
+       font-family: "Montserrat", sans-serif !important;
+       font-weight: 200;
       
         color: black;
       }
     </style>
- <!-- </head>
+ </head>
   <body>
     <header>
       <h1>Folium Example Maps</h1>
