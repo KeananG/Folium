@@ -1,4 +1,22 @@
-<!DOCTYPE html>
+<style>
+  /* Add red strip to header */
+  body {
+    background-color: lightgrey; /* Set background color of the document */
+  }
+  h1 {
+    background-color: red; /* Set background color of the header */
+    color: white; /* Set text color of the header */
+    padding: 10px; /* Add padding to the header */
+    font-family: 'Montserrat', sans-serif; /* Set font-family of the header */
+  }
+  /* Set font-family and color of the rest of the document */
+  body, p, ul, li {
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+  }
+</style>
+
+<!-- Your existing HTML code here -->
 <html>
   <head>
     <title>Folium Example Mapss</title>
@@ -20,3 +38,4 @@
     </ul>
   </body>
 </html>
+
