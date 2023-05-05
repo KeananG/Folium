@@ -1,6 +1,6 @@
 <html>
   <head>
-    <title><p>Folium Example Maps<p></title>
+    <title>Folium Example Maps</title>
     <style>
        @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
       header {
@@ -23,7 +23,7 @@
  </head>
   <body>
     <header>
-      <h1>Folium Example Maps</h1>
+      <p>Folium Example Maps<p>
     </header>
     <!--<p>Maps:</p> -->
     <ul>
