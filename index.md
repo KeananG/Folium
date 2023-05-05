@@ -1,28 +1,26 @@
-<style>
-  /* Add red strip to header */
-  body {
-    background-color: lightgrey; /* Set background color of the document */
-  }
-  h1 {
-    background-color: red; /* Set background color of the header */
-    color: white; /* Set text color of the header */
-    padding: 10px; /* Add padding to the header */
-    font-family: 'Montserrat', sans-serif; /* Set font-family of the header */
-  }
-  /* Set font-family and color of the rest of the document */
-  body, p, ul, li {
-    font-family: 'Montserrat', sans-serif;
-    color: black;
-  }
-</style>
-
-<!-- Your existing HTML code here -->
+<!DOCTYPE html>
 <html>
   <head>
-    <title>Folium Example Mapss</title>
+    <title>Folium Example Maps</title>
+    <style>
+      header {
+        background-color: #8B0000; /* Dark red */
+        color: black;
+        padding: 10px;
+        font-family: "Montserrat", sans-serif;
+      }
+      
+      body {
+        background-color: #F5F5F5; /* Light grey */
+        font-family: "Montserrat", sans-serif;
+        color: black;
+      }
+    </style>
   </head>
   <body>
-    <h1>Folium Example Mapss</h1>
+    <header>
+      <h1>Folium Example Maps</h1>
+    </header>
     <p>Check out my maps:</p>
     <ul>
       <li>Cluster Map: <iframe src="https://keanang.github.io/Folium/cluster_map.html" width="700" height="600"></iframe></li>
@@ -38,4 +36,5 @@
     </ul>
   </body>
 </html>
+
 
