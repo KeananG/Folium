@@ -1,11 +1,11 @@
 <html>
   <head>
-    <title>Folium Example Maps</title>
+    <title><p>Folium Example Maps<p></title>
     <style>
        @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
       header {
         background-color: #8B0000; /* Dark red */
-        color: black;
+        <!-- color: black;-->
         padding: 10px;
         font-family: Montserrat, sans-serif !important;
         font-weight: 100;
