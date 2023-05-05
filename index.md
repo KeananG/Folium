@@ -28,19 +28,17 @@
       <p>Cluster Map:</p>
       <iframe src="https://keanang.github.io/Folium/cluster_map.html" width="700" height="600"></iframe>
       <p>Heat Map:</p>
-       <li><iframe src="https://keanang.github.io/Folium/Heat_map.html" width="700" height="600"></iframe></li>
+       <iframe src="https://keanang.github.io/Folium/Heat_map.html" width="700" height="600"></iframe>
       <p>Heat Map With Time:</p>
-        <li><iframe src="https://keanang.github.io/Folium/Heat_time_map.html" width="700" height="600"></iframe></li>
-      <p>Heat Map With Time Point style:/<p>
-        <li><iframe src="https://keanang.github.io/Folium/Heat_time_point_map.html" width="700" height="600"></iframe></li>
+        <iframe src="https://keanang.github.io/Folium/Heat_time_map.html" width="700" height="600"></iframe>
+      <p>Heat Map With Time Point style:</p>
+        <iframe src="https://keanang.github.io/Folium/Heat_time_point_map.html" width="700" height="600"></iframe>
       <p>Folium Choropleth:</p> 
-        <li><iframe src="https://keanang.github.io/Folium/folium_Choropleth.html" width="700" height="600"></iframe></li>
+        <iframe src="https://keanang.github.io/Folium/folium_Choropleth.html" width="700" height="600"></iframe>
       <p>Choropleth:</p>
-        <li>
         <iframe src="https://keanang.github.io/Folium/choropleth_poly.png" width="700" height="600"></iframe>
         <iframe src="https://keanang.github.io/Folium/choropleth_poly1.png" width="700" height="600"></iframe>
         <iframe src="https://keanang.github.io/Folium/choropleth_poly_sql.png" width="700" height="600"></iframe>
-      </li>
     </ul>
   </body>
 </html>
