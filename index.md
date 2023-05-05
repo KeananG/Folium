@@ -23,7 +23,7 @@
  </head>
   <body>
     <header>
-      <p>Folium Example Maps<p>
+      <p>Folium Example Maps</p>
     </header>
     <!--<p>Maps:</p> -->
     <ul>
