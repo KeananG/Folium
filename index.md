@@ -26,7 +26,7 @@
     <!--<p>Maps:</p> -->
     <ul>
       <p>Cluster Map:</p>
-      <li><iframe src="https://keanang.github.io/Folium/cluster_map.html" width="700" height="600"></iframe></li>
+      <iframe src="https://keanang.github.io/Folium/cluster_map.html" width="700" height="600"></iframe>
       <p>Heat Map:</p>
        <li><iframe src="https://keanang.github.io/Folium/Heat_map.html" width="700" height="600"></iframe></li>
       <p>Heat Map With Time:</p>
