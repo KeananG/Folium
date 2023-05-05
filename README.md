@@ -5,5 +5,5 @@ The main notebook is Folium_lean.ipynb and the GIS notebook using geopandas is c
 
 
 <!-- Show link to Github Pages -->
-Check out the map examples on [Github Pages](https://keanang.github.io/Folium/).
+Check out the map examples on [Folium Github Page](https://keanang.github.io/Folium/).
 
