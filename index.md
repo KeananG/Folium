@@ -7,13 +7,13 @@
         background-color: #8B0000; /* Dark red */
         <!-- color: black;-->
         padding: 10px;
-        font-family: Abril Fatface!important;
+        font-family: Lite Abril Fatface!important;
         font-weight: 100;
       }
       
       body {
         background-color: #F5F5F5; /* Light grey */
-       font-family: Abril Fatface !important;
+       font-family: Lite Abril Fatface !important;
        font-weight: 200;
        color: black;
      }
