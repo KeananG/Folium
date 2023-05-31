@@ -6,27 +6,44 @@
 
 import os
 
-def generate_file_list():
-    root_dir = '.'  # Set the root directory for the file list
+def generate_directory_tree(path, indent=''):
+    tree = ''
+    items = sorted(os.listdir(path))
+    
+    for i, item in enumerate(items):
+        item_path = os.path.join(path, item)
+        tree += f'{indent}├── {item}\n'
+        
+        if os.path.isdir(item_path):
+            if i == len(items) - 1:
+                tree += generate_directory_tree(item_path, indent + '    ')
+            else:
+                tree += generate_directory_tree(item_path, indent + '│   ')
+    
+    return tree
 
-    # List the files and directories in the root directory
-    items = os.listdir(root_dir)
+# Specify the path to the root directory of your project
+root_directory = '/path/to/your/project'
 
-    # Sort the items alphabetically or based on your preferred order
-    sorted_items = sorted(items)
+# Generate the directory tree
+directory_tree = generate_directory_tree(root_directory)
 
-    # Filter out directories and non-Markdown files
-    files = [item for item in sorted_items if os.path.isfile(item) and item.endswith('.md')]
+# Read the current README.md file
+with open('README.md', 'r') as readme_file:
+    readme_content = readme_file.read()
 
-    # Generate the file list Markdown content
-    file_list = "\n".join([f"- [{file}](./{file})" for file in files])
+# Find the section to update in the README.md file
+start_tag = '```'
+end_tag = '```'
+start_index = readme_content.find(start_tag)
+end_index = readme_content.find(end_tag, start_index + len(start_tag))
 
-    return file_list
+# Replace the old directory structure with the updated one
+updated_readme_content = readme_content[:start_index + len(start_tag)] + '\n' + directory_tree + readme_content[end_index:]
 
-# Generate the file list
-file_list_content = generate_file_list()
-
-# Update the README.md file with the file list content
+# Write the updated content back to the README.md file
 with open('README.md', 'w') as readme_file:
-    readme_file.write(f"```{file_list_content}```\n")
+    readme_file.write(updated_readme_content)
+
+print('Directory structure in README.md updated successfully.')
 
