@@ -31,7 +31,6 @@
     <header>
       <h1>Folium Example Maps</h1>
     </header>
-    <!--<p>Maps:</p> -->
     <ul>
       <p>Cluster Map:</p>
       <iframe src="https://keanang.github.io/Folium/cluster_map.html" width="700" height="600"></iframe>
