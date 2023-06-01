@@ -1,29 +1,32 @@
 <html>
   <head>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Montserrat:wght@400;500;700;900&display=swap" rel="stylesheet">
-    <title>Folium Example Maps</title>
+    <title>ClassiFire</title>
     <style>
-       @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;700&display=swap')
-       header {
+      @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;700&display=swap');
+
+      body {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+        margin: 0;
+        background-color: #F5F5F5; /* Light grey */
+        font-family: 'Lite Abril Fatface', sans-serif;
+        font-weight: 200;
+        color: black;
+      }
+
+      header {
         background-color: #8B0000; /* Dark red */
-        <!-- color: black;-->
+        color: black;
         padding: 10px;
-        <!-- font-family: Lite Abril Fatface!important; -->
         font-family: Montserrat, sans-serif;
         font-weight: 500;
-        
+        text-align: center;
       }
-      
-      body {
-        background-color: #F5F5F5; /* Light grey */
-       font-family: Lite Abril Fatface !important;
-       font-weight: 200;
-       color: black;
-     }
     </style>
- </head>
+  </head>
   <body>
     <header>
       <h1>Folium Example Maps</h1>
