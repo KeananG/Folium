@@ -25,6 +25,11 @@
         font-weight: 500;
         text-align: center;
       }
+        img {
+       display: block;
+      margin: 0;
+      border: none;
+    }
     </style>
   </head>
   <body>
@@ -46,7 +51,7 @@
         <iframe src="https://keanang.github.io/Folium/choropleth_poly.png" width="700" height="600"></iframe>
         <iframe src="https://keanang.github.io/Folium/choropleth_poly1.png" width="700" height="600"></iframe>
         <iframe src="https://keanang.github.io/Folium/choropleth_poly_sql.png" width="700" height="600"></iframe>
-        <img src="https://keanang.github.io/Folium/choropleth_poly_sql.png" alt="choropleth" width="700" height="600" />
+        <img src="https://keanang.github.io/Folium/choropleth_poly_sql.png" alt="choropleth"/>
 
     </div>
   </body>
