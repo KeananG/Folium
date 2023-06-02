@@ -9,7 +9,7 @@
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        height: 100vh;
+        height: 1000;
         margin: 0;
         background-color: #F5F5F5; /* Light grey */
         font-family: 'Lite Abril Fatface', sans-serif;
