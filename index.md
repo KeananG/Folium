@@ -31,7 +31,7 @@
     <header>
       <h1>Folium Example Maps</h1>
     </header>
-    <ul>
+    <div>
       <p>Cluster Map:</p>
       <iframe src="https://keanang.github.io/Folium/cluster_map.html" width="700" height="600"></iframe>
       <p>Heat Map:</p>
@@ -46,6 +46,6 @@
         <iframe src="https://keanang.github.io/Folium/choropleth_poly.png" width="700" height="600"></iframe>
         <iframe src="https://keanang.github.io/Folium/choropleth_poly1.png" width="700" height="600"></iframe>
         <iframe src="https://keanang.github.io/Folium/choropleth_poly_sql.png" width="700" height="600"></iframe>
-    </ul>
+    </div>
   </body>
 </html>
