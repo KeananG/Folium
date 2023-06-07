@@ -4,6 +4,7 @@ This repository covers utilizing folium from a different perspepctive. [Folium n
 
 # [Github Page](https://keanang.github.io/Folium/)
 
+# Repo Structure
 ```
 ├── .gitignore
 ├── Folium_learn.ipynb
