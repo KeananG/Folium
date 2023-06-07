@@ -2,9 +2,7 @@
 
 This repository covers utilizing folium from a different perspepctive. [Folium notebook](Folium_learn.ipynb) covers certain basic principles utilizing folium, however, python-visualization's own folium repository contains more examples and may also be beneficial. [python-visualization folium examples](https://github.com/python-visualization/folium/tree/main/examples)
 
-# Github page
-
-[Folium page](https://keanang.github.io/Folium/)
+# [Github Page](https://keanang.github.io/Folium/)
 
 ```
 ├── .gitignore
