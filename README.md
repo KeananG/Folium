@@ -1,6 +1,6 @@
 <h1 align="center">Folium</h1>
 
-This repository covers utilizing folium from a different perspepctive. [Folium notebook](Folium_learn.ipynb) does cover certain basic princibles utilizing python-visualization's own folium repository may also be beneficial. [python-visualization folium examples](https://github.com/python-visualization/folium/tree/main/examples)
+This repository covers utilizing folium from a different perspepctive. [Folium notebook](Folium_learn.ipynb) covers certain basic principles utilizing folium, however, python-visualization's own folium repository contains more examples and may also be beneficial. [python-visualization folium examples](https://github.com/python-visualization/folium/tree/main/examples)
 
 # Github page
 
