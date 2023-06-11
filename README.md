@@ -2,7 +2,7 @@
 
 ![boulder map](boulders.svg)
 
-_Note: This was not made in Folium as cool as that would have been
+_Note: This was not made in Folium as cool as that would have been_
 
 
 This repository provides a unique perspective on utilizing Folium. While the [Folium notebook](Folium_learn.ipynb) covers essential principles, the official folium repository from python-visualization contains a broader range of examples that can be highly beneficial. You may find it helpful to explore the [python-visualization folium examples](https://github.com/python-visualization/folium/tree/main/examples) for further insights.
