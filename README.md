@@ -1,6 +1,7 @@
 <h1 align="center">Folium</h1>
 
 ![boulder map](boulders.svg)
+
 _Note: This was not made in Folium as cool as that would have been
 
 
