@@ -3,7 +3,7 @@
   <head>
     <meta name="google-site-verification" content="tTOcI-YmiTZ3Xuq6HQ6IcowNe2aSWRV17QnJXH0ekO8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ClassiFire</title>
+    <title>KeananG GitHub</title>
     <style>
       @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;700&display=swap');
 
@@ -15,12 +15,26 @@
         color: black;
       }
       header {
-        background: linear-gradient(to bottom right, #7548AB, #0A032F);
+        background-color: #6536A0; /* Gloss Purple */
         color: white;
         padding: 10px;
         font-family: 'Montserrat', sans-serif;
         font-weight: 500;
         text-align: center;
+        position: relative;
+      }
+
+      header::after {
+        content: '';
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        background-color: #00389E; /* Blue Satin Chameleon */
+        opacity: 0.6; /* Adjust the opacity as desired */
+        z-index: -1;
+        box-shadow: 0 0 20px 10px #00389E; /* Adjust the size and color of the shine */
       }
       
       nav {
