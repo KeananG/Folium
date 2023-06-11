@@ -15,29 +15,17 @@
         color: black;
       }
       header {
-        background-color: #6536A0; /* Gloss Purple */
+        background: linear-gradient(to bottom right, #7548AB, #0A032F);
+        background-attachment: fixed;
+        background-blend-mode: overlay;
+        background-color: rgba(0, 0, 255, 0.2);
         color: white;
         padding: 10px;
         font-family: 'Montserrat', sans-serif;
         font-weight: 500;
         text-align: center;
-        position: relative;
       }
-
-      header::after {
-        content: '';
-        position: absolute;
-        top: 0;
-        right: 0;
-        bottom: 0;
-        left: 0;
-        background-color: #00389E; /* Blue Satin Chameleon */
-        opacity: 0.6; /* Adjust the opacity as desired */
-        z-index: -1;
-        box-shadow: 0 0 20px 10px #00389E; /* Adjust the size and color of the shine */
-      }
-      
-      nav {
+            nav {
         background-color: #333; /* Dark grey */
         color: white;
         padding: 8px;
@@ -188,33 +176,7 @@
     </nav>
     <main>
       <div class="page" id="page1">
-       
-        <div id="markdown-content"></div>
-          <style>
-            </style>
-          <script>
-          // Function to fetch the Markdown file
-          function fetchMarkdownFile(url) {
-            return fetch(url)
-              .then(response => response.text())
-              .catch(error => console.log(error));
-          }
-
-          // Function to convert Markdown to HTML using Showdown
-          function convertMarkdownToHTML(markdownContent) {
-            const converter = new showdown.Converter();
-            return converter.makeHtml(markdownContent);
-          }
-
-          // Fetch the Markdown file and display its content as HTML
-          fetchMarkdownFile('README.md')
-            .then(markdownContent => {
-              const htmlContent = convertMarkdownToHTML(markdownContent);
-              document.getElementById('markdown-content').innerHTML = htmlContent;
-            });
-          </script>
       </div>
-      
       <div class="page" id="page2">
         <body>
           <header>
