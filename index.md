@@ -1,66 +1,327 @@
+<!DOCTYPE html>
 <html>
   <head>
+    <meta name="google-site-verification" content="tTOcI-YmiTZ3Xuq6HQ6IcowNe2aSWRV17QnJXH0ekO8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ClassiFire</title>
     <style>
       @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;700&display=swap');
 
       body {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        height: 1000;
         margin: 0;
         background-color: #F5F5F5; /* Light grey */
-        font-family: 'Lite Abril Fatface', sans-serif;
-        font-weight: 200;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 100;
         color: black;
       }
 
       header {
-        background-color: #8B0000; /* Dark red */
-        color: black;
+        background-color: #3C0067; /* Gloss Purple Tint Over Chameleon */
+        color: white;
         padding: 10px;
-        font-family: Montserrat, sans-serif;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 500;
+        text-align: center;
+        background-image: radial-gradient(white, rgba(0, 0, 0, 0.2) 2px);
+        background-clip: content-box;
+      }
+
+      nav {
+        background-color: #333; /* Dark grey */
+        color: white;
+        padding: 8px;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 300;
+        display: flex;
+        align-items: center;
+        justify-content: space-between; 
+        text-align: center;
+      }
+
+      nav ul {  /* ul is a list */
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        align-items: center;
+      }
+  
+      nav ul li a {
+        display: block;
+        color: white;
+        padding: 14px 16px;
+        text-decoration: none;
+        text-align: left;
+      }
+
+      nav ul li a:hover {
+        background-color: #111; /* Dark grey when hovering */
+      }
+      
+      h1 {
+        color: white;
+        font-family: 'Montserrat', sans-serif;
         font-weight: 500;
         text-align: center;
       }
-          .iframe-container {
-      width: 700px;
-      height: 600px;
-      overflow: hidden;
-    }
 
-    .iframe-container iframe {
-      width: 100%;
-      height: 100%;
-      transform: scale(0.8); /* Adjust the scale value as needed */
-      transform-origin: top left;
-    }
+      nav h2 {
+        color: white;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 300;
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        top: 100px;
+      } 
+      
+      main {
+        max-width: 1000px;
+        margin: 20px auto;
+        padding: 0 20px;
+      }
+
+      p {
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 100;
+        text-align: left;
+        font-size: 18px;
+        line-height: 1.5;
+        margin-bottom: 20px;
+      }
+
+      iframe {
+        width: 100%;
+        height: 700px;
+      }
+
+      .page {
+        display: none;
+      }
+
+      .page.active {
+        display: block;
+      }
+
+      footer {
+        text-align: center;
+        margin-top: 20px;
+      }
+      
+      .centered-text {
+        margin-left: auto;
+        margin-right: auto;
+      }
+      
+      #markdown-content h1 {
+        color: black;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 100;
+      }
+
+      #markdown-content h2 {
+        color: black; 
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 100;
+      }
+      #markdown-content img {
+        max-width: 100%;
+        height: auto;
+      }
+      @media (max-width: 600px) {
+        body {
+          font-size: 16px;
+        }
+
+        /* Adjust padding and margins */
+        nav ul li a {
+          padding: 10px 12px;
+        }
+
+        /* Increase size of clickable elements */
+        nav ul li a {
+          font-size: 18px;
+        }
+
+        /* Modify layout for smaller screens */
+        main {
+          padding: 0 10px;
+        }
+
+        /* Adjust iframe dimensions */
+        iframe {
+          height: 400px;
+        }
+        nav h2 {
+          display: none;
+        }      
+      }
     </style>
   </head>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/showdown/1.9.1/showdown.min.js"></script>
+
   <body>
     <header>
-      <h1>Folium Example Maps</h1>
+      <h1>Folium</h1>
     </header>
-    <div>
-      <p>Cluster Map:</p>
-      <iframe src="https://keanang.github.io/Folium/cluster_map.html" width="700" height="600"></iframe>
-      <p>Heat Map:</p>
-       <iframe src="https://keanang.github.io/Folium/Heat_map.html" width="700" height="600"></iframe>
-      <p>Heat Map With Time:</p>
-        <iframe src="https://keanang.github.io/Folium/Heat_time_map.html" width="700" height="600"></iframe>
-      <p>Heat Map With Time Point style:</p>
-        <iframe src="https://keanang.github.io/Folium/Heat_time_point_map.html" width="700" height="600"></iframe>
-      <p>Folium Choropleth:</p> 
-        <iframe src="https://keanang.github.io/Folium/folium_Choropleth.html" width="700" height="600"></iframe>
-      <p>Choropleth:</p>
-        <iframe src="https://keanang.github.io/Folium/choropleth_poly.png" width="700" height="600"></iframe>
-        <iframe src="https://keanang.github.io/Folium/choropleth_poly1.png" width="700" height="600"></iframe>
-        <iframe src="https://keanang.github.io/Folium/choropleth_poly_sql.png" width="700" height="600"></iframe>
-        <div class="iframe-container">
-          <iframe src="https://keanang.github.io/Folium/choropleth_poly_sql.png"></iframe>
-        </div>
-    </div>
+    <nav>
+      <ul>
+        <li><a href="#" data-page-id="page1">Home</a></li>
+        <li><a href="#" data-page-id="page2">Cluster Map</a></li>
+        <li><a href="#" data-page-id="page3">Heat Map</a></li>
+        <li><a href="#" data-page-id="page4">Heat Map With Time</a></li>
+        <li><a href="#" data-page-id="page5">Heat Map With Time Point style</a></li>
+        <li><a href="#" data-page-id="page6">Folium Choropleth</a></li>
+        <li><a href="#" data-page-id="page7">Choropleth</a></li> 
+      </ul>
+     
+      <div class="centeredtext">
+      <h2>Wildfires Management Complexity Project</h2>
+      </div>
+    </nav>
+    <main>
+      <div class="page" id="page1">
+       
+        <div id="markdown-content"></div>
+          <style>
+            </style>
+          <script>
+          // Function to fetch the Markdown file
+          function fetchMarkdownFile(url) {
+            return fetch(url)
+              .then(response => response.text())
+              .catch(error => console.log(error));
+          }
+
+          // Function to convert Markdown to HTML using Showdown
+          function convertMarkdownToHTML(markdownContent) {
+            const converter = new showdown.Converter();
+            return converter.makeHtml(markdownContent);
+          }
+
+          // Fetch the Markdown file and display its content as HTML
+          fetchMarkdownFile('README.md')
+            .then(markdownContent => {
+              const htmlContent = convertMarkdownToHTML(markdownContent);
+              document.getElementById('markdown-content').innerHTML = htmlContent;
+            });
+          </script>
+      </div>
+      
+      <div class="page" id="page2">
+        <body>
+          <header>
+            <h1>Leave Blank</h1>
+          </header>
+          <main>
+            <iframe src="https://keanang.github.io/Folium/cluster_map.html" width="700" height="600"></iframe>
+          </main>
+        </body>
+      </div>
+
+      <div class="page" id="page3">
+        <body>
+          <header>
+            <h1>Leave Blank</h1>
+          </header>
+          <main>
+            <iframe src="https://keanang.github.io/Folium/Heat_map.html" width="700" height="600"></iframe>
+          </main>
+        </body>
+      </div>
+
+      <div class="page" id="page4">
+        <body>
+          <header>
+            <h1>Leave Blank</h1>
+          </header>
+          <main>
+            <iframe src="https://keanang.github.io/Folium/Heat_time_map.html" width="700" height="600"></iframe>
+          </main>
+        </body>
+      </div>
+
+      <div class="page" id="page5">
+        <body>
+          <header>
+            <h1>Leave Blank</h1>
+          </header>
+          <main>
+            <iframe src="https://keanang.github.io/Folium/Heat_time_point_map.html" width="700" height="600"></iframe>
+          </main>
+        </body>
+      </div>
+
+      <div class="page" id="page6">
+        <body>
+          <header>
+            <h1>Leave Blank</h1>
+          </header>
+          <main>
+            <iframe src="https://keanang.github.io/Folium/folium_Choropleth.html" width="700" height="600"></iframe>
+          </main>
+        </body>
+      </div>
+
+      <div class="page" id="page7">
+        <body>
+          <header>
+            <h1>Leave Blank</h1>
+          </header>
+          <main>
+            <iframe src="https://keanang.github.io/Folium/choropleth_poly.png" width="700" height="600"></iframe>
+            <iframe src="https://keanang.github.io/Folium/choropleth_poly1.png" width="700" height="600"></iframe>
+            <iframe src="https://keanang.github.io/Folium/choropleth_poly_sql.png" width="700" height="600"></iframe>
+            <div class="iframe-container">
+              <iframe src="https://keanang.github.io/Folium/choropleth_poly_sql.png"></iframe>
+            </div>
+          </main>
+        </body>
+      </div>
+
+
+      <footer>
+        <h3 align="center">Feel free to check out my Folium repository or GitHub profile:</h3>
+          <a href="https://github.com/KeananG">
+           <img src="https://img.shields.io/badge/KeananG-black?logo=github&style=flat-square&logoColor=white" alt="KeananG">
+          </a>
+         <a href="https://github.com/KeananG/Folium/">
+          <img src="https://img.shields.io/badge/Folium-black?logo=github&style=flat-square&logoColor=white" alt="Folium">
+        </a>   
+      </footer>
+    </main>
+    <script>
+      function showPage(pageId) {
+        const pages = document.querySelectorAll('.page');
+        for (let i = 0; i < pages.length; i++) {
+          if (pages[i].id === pageId) {
+            pages[i].classList.add('active');
+          } else {
+            pages[i].classList.remove('active');
+          }
+        }
+      }
+
+      function handleMenuClick(event) {
+        event.preventDefault();
+        const target = event.target;
+        if (target.tagName === 'A') {
+          const pageId = target.getAttribute('data-page-id');
+          showPage(pageId);
+        }
+      }
+
+      const menu = document.querySelector('nav ul');
+      menu.addEventListener('click', handleMenuClick);
+     
+      // Setting default page to page1
+      showPage('page1');
+    </script>
   </body>
 </html>
+
+
+
+
+
+
